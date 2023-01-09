@@ -1,4 +1,4 @@
-function descricao(variavel) {
+function descricao(nome_produto) {
   // Substitua SUA_CHAVE_DE_ACESSO_AQUI pela sua chave de acesso à API do OpenAI
   var apiKey = 'sk-SUA_CHAVE_DE_ACESSO_AQUI';
   var model = 'text-davinci-003';
