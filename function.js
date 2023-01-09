@@ -2,8 +2,8 @@ function descricao(variavel) {
   // Substitua SUA_CHAVE_DE_ACESSO_AQUI pela sua chave de acesso à API do OpenAI
   var apiKey = 'sk-SUA_CHAVE_DE_ACESSO_AQUI';
   var model = 'text-davinci-003';
-  // Substitua SUA_CHAVE_DE_ACESSO_AQUI pela texto que seria o comando e coloque a variável onde bem entender
-  var prompt = `ENTRE_COM_O_QUE_GOSTARIA_DE_PEDIR_AO_CHAGPT_AQUI_COMO_TEXTO ${variavel} :`;
+  // Entre abaixo com o texto que preferir também alterando o local da variável
+  var prompt = `Crie uma descrição para um produto de nome ${nome_produto} pensando em SEO e em vendas :`;
   var temperature = 0.5;
   
   var response = UrlFetchApp.fetch(
